@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+		<link rel="stylesheet" href="style.css" />
+
+		<script src="script.js" defer></script>
+
+		<title>Frontend Mentor | Sunnyside agency landing page</title>
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar--header">
+				<a href="/index.html" class="navbar__icon">
+					<svg class="logo" width="124" height="24">
+						<use href="./images/logo.svg#logo" />
+					</svg>
+				</a>
+
+				<ul class="nav nav__links" id="menu">
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Projects</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+
+				<button class="navbar__menu--button" id="menuButton" type="menu">
+					<svg width="24" height="18  ">
+						<image href="./images/icon-hamburger.svg" />
+					</svg>
+				</button>
+			</nav>
+
+			<div class="header__content">
+				<h1 class="header__title">We are creatives</h1>
+
+				<svg class="header__arrow--down" width="36" height="114">
+					<image href="./images/icon-arrow-down.svg" />
+				</svg>
+			</div>
+		</header>
+
+		<main>
+			<section id="showcase">
+				<div class="showcase grid">
+					<div class="showcase__card">
+						<img src="./images/desktop/image-transform.jpg" alt="Transform" srcset="./images/desktop/image-transform.jpg 720w, ./images/mobile/image-transform.jpg 750w" sizes="(max-width: 425px) 750px, 720px" />
+
+						<div class="content">
+							<h1>Transform your brand</h1>
+							<p>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+
+							<a href="#">Learn more</a>
+						</div>
+					</div>
+
+					<div class="showcase__card">
+						<img src="./images/desktop/image-stand-out.jpg" alt="Stand Out" srcset="./images/desktop/image-stand-out.jpg 720w, ./images/mobile/image-stand-out.jpg 750w" sizes="(max-width: 425px) 750px, 720px" />
+
+						<div class="content">
+							<h1>Stand out to the right audience</h1>
+							<p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+
+							<a href="#">Learn more</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="showcase inline">
+					<div class="showcase__card">
+						<picture class="showcase__image">
+							<source media="(max-width: 425px)" srcset="./images/mobile/image-graphic-design.jpg" />
+							<img src="./images/desktop/image-graphic-design.jpg" alt="Graphic Design" />
+						</picture>
+
+						<div class="content">
+							<h1>Graphic design</h1>
+							<p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+						</div>
+					</div>
+
+					<div class="showcase__card">
+						<picture class="showcase__image">
+							<source media="(max-width: 425px)" srcset="./images/mobile/image-photography.jpg" />
+							<img src="./images/desktop/image-photography.jpg" alt="Photography" />
+						</picture>
+
+						<div class="content">
+							<h1>Photography</h1>
+							<p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="testimonials">
+				<h1>Client testimonials</h1>
+
+				<div class="card__container">
+					<div class="card">
+						<img src="./images/image-emily.jpg" alt="Profile Image" class="card__image" />
+
+						<p class="card__body">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+
+						<div class="card__info">
+							<h3>Emily R.</h3>
+							<h4>Marketing Director</h4>
+						</div>
+					</div>
+					<div class="card">
+						<img src="./images/image-thomas.jpg" alt="Profile Image" class="card__image" />
+
+						<p class="card__body">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+
+						<div class="card__info">
+							<h3>Thomas S.</h3>
+							<h4>Chief Operating Officer</h4>
+						</div>
+					</div>
+					<div class="card">
+						<img src="./images/image-jennie.jpg" alt="Profile Image" class="card__image" />
+
+						<p class="card__body">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+
+						<div class="card__info">
+							<h3>Jennie F.</h3>
+							<h4>Business Owner</h4>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="gallery">
+				<div class="image__container">
+					<img
+						src="./images/desktop/image-gallery-milkbottles.jpg"
+						alt="Gallery Image"
+						class="image"
+						srcset="./images/desktop/image-gallery-milkbottles.jpg 720w, ./images/mobile/image-gallery-milkbottles.jpg 376w"
+						sizes="(max-width: 425px) 376px, 720px"
+					/>
+
+					<img
+						src="./images/desktop/image-gallery-orange.jpg"
+						alt="Gallery Image"
+						class="image"
+						srcset="./images/desktop/image-gallery-orange.jpg 720w, ./images/mobile/image-gallery-orange.jpg 376w"
+						sizes="(max-width: 425px) 376px, 720px"
+					/>
+
+					<img src="./images/desktop/image-gallery-cone.jpg" alt="Gallery Image" class="image" srcset="./images/desktop/image-gallery-cone.jpg 720w, ./images/mobile/image-gallery-cone.jpg 376w" sizes="(max-width: 425px) 376px, 720px" />
+
+					<img
+						src="./images/desktop/image-gallery-sugarcubes.jpg"
+						alt="Gallery Image"
+						class="image"
+						srcset="./images/desktop/image-gallery-sugarcubes.jpg 720w, ./images/mobile/image-gallery-sugarcubes.jpg 376w"
+						sizes="(max-width: 425px) 376px, 720px"
+					/>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<nav class="navbar navbar--footer">
+				<a href="/index.html">
+					<svg class="logo" width="124" height="24">
+						<use href="./images/logo.svg#logo" />
+					</svg>
+				</a>
+
+				<ul class="nav nav__links">
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Projects</a></li>
+				</ul>
+
+				<ul class="nav nav__social--links">
+					<li>
+						<a href="#">
+							<svg width="20" height="20">
+								<use href="./images/icon-facebook.svg#icon" />
+							</svg>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<svg width="20" height="20">
+								<use href="./images/icon-instagram.svg#icon" />
+							</svg>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<svg width="20" height="20">
+								<use href="./images/icon-twitter.svg#icon" />
+							</svg>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<svg width="20" height="20">
+								<use href="./images/icon-pinterest.svg#icon" />
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</footer>
+
+		<div class="attribution">
+			Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://www.twitter.com/natscamp02" target="_blank" rel="noopener noreferrer">Natscamp</a>.
+		</div>
+	</body>
+</html>
