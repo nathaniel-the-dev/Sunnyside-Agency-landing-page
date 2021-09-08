@@ -164,6 +164,8 @@ header {
 	opacity: 0.75;
 
 	display: none;
+
+	cursor: pointer;
 }
 
 .nav__links a {
