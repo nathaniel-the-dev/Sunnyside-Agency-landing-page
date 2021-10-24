@@ -58,7 +58,7 @@ You can create responsive images using the picture element combined with the src
 
 In the code above, the picture element is used to display the mobile image if the screen width is 425px or less, otherwise it displays the desktop image. You can read more [here](#useful-resources).
 
-### Using clip-path to mask content
+### - Using clip-path to mask content
 
 In CSS, the clip-path property can be used to mask the content insode an element with a specified shape. In this example, it was used to create the mobile menu. Here is how it was done:
 
