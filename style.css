@@ -355,9 +355,13 @@ header {
 }
 
 .showcase.grid .showcase__card p {
-	color: var(--grayish-blue);
+	max-width: 45ch;
+	color: var(--dark-grayish-blue);
 }
 
+.showcase.grid .showcase__card .card-image {
+	flex-grow: 1;
+}
 .showcase.grid .showcase__card img {
 	height: 100%;
 	width: 100%;
@@ -372,17 +376,20 @@ header {
 
 	.showcase.grid .showcase__card .content {
 		text-align: left;
-		padding-block: 10rem;
+
+		padding: 10rem 7rem;
+
 		align-items: flex-start;
 	}
 
 	.showcase.grid .showcase__card:first-child .content {
-		padding-inline: 10rem 7rem;
+		padding-right: 5rem;
+
 		order: -1;
 	}
 
 	.showcase.grid .showcase__card:last-child .content {
-		padding-inline: 7rem 10rem;
+		padding-right: 5rem;
 	}
 }
 
@@ -399,10 +406,10 @@ header {
 
 	display: flex;
 	flex-direction: column;
-	gap: 1.5rem;
+	gap: 1rem;
 
 	position: absolute;
-	top: 65%;
+	bottom: 10%;
 	left: 50%;
 	transform: translateX(-50%);
 }
@@ -437,7 +444,9 @@ header {
 	}
 
 	.showcase.inline .showcase__card p {
-		padding-inline: 10rem;
+		/* padding-inline: 3rem; */
+		max-width: 40ch;
+		margin-inline: auto;
 	}
 }
 
@@ -485,16 +494,19 @@ header {
 	color: var(--very-dark-grayish-blue);
 	font-size: 1.2rem;
 	line-height: 1.75;
+
+	min-height: 8rem;
 }
 
-.card__info h3 {
+.card__info h2 {
 	color: var(--dark-desaturated-blue);
 	font-family: var(--secondary-font);
+	font-size: 1.5rem;
 	font-weight: 900;
 
 	margin-bottom: 0.5rem;
 }
-.card__info h4 {
+.card__info h3 {
 	color: var(--grayish-blue);
 	font-size: 1rem;
 }
@@ -507,6 +519,8 @@ header {
 	.card__body {
 		font-size: 1.15rem;
 		padding-inline: 1.25rem;
+
+		min-height: auto;
 	}
 }
 
