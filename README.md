@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 -   Solution URL: [Solution](https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-84EKFqfIT)
--   Live Site URL: [Live Demo](https://sunnyside-agency-landing-page-olive.vercel.app/)
+-   Live Site URL: [Live Demo](https://sunnyside-agency-landing-page-natscamp.vercel.app/)
 
 ## My process
 
@@ -86,6 +86,6 @@ The function resets the menu to its default state and then, using requestAnimati
 
 ## Author
 
--   Frontend Mentor - [@Nathan1434](https://www.frontendmentor.io/profile/yourusername)
+-   Frontend Mentor - [@Nathan1434](https://www.frontendmentor.io/profile/Nathan1434)
 -   Twitter - [@natscamp02](https://www.twitter.com/natscamp02)
 -   Github - [Nathan1434](https://github.com/Nathan1434?tab=repositories)
